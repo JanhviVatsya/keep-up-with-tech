@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Keep Up With Tech",
+    "description": "Get latest news here",
+    "version": "0.0.1",
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "hello_extensions.png"
+    },
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "storage"
+    ],
+    "optional_permissions": [
+      "topSites"
+    ],
+    "host_permissions": [
+      "https://www.developer.chrome.com/*"
+    ],
+    "optional_host_permissions":[
+      "https://*/*",
+      "http://*/*"
+    ]
+  }
